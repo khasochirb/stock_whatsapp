@@ -1,63 +1,63 @@
-# Stock-notification through Whatsapp
+# Stock Notification via WhatsApp  
 
-The Stock Notification project is a Python application that monitors stock price changes and sends notifications via WhatsApp using the Twilio API. It fetches stock data from the Alpha Vantage API and news articles from the News API to provide context for significant stock price changes.
+This Stock Notification project is a Python-based application that tracks stock price changes and sends WhatsApp alerts using the Twilio API. It integrates the Alpha Vantage API for stock data and the News API for providing context about significant price movements.  
 
-## Features
+## Features  
 
-- Fetch daily stock prices for a specified company.
-- Calculate the percentage change in stock price.
-- Retrieve news articles related to the company.
-- Send WhatsApp notifications for significant stock price changes.
+- Monitor daily stock prices for a specified company.  
+- Calculate percentage changes in stock prices.  
+- Fetch related news articles for additional context.  
+- Send WhatsApp notifications for notable stock price fluctuations.  
 
-## Installation
+## Installation  
 
-1. **Clone the repository:**
+1. **Clone the repository:**  
 
-   ```bash
-   git clone https://github.com/chinguun101/stock-notification.git
-   cd stock-notification
-   ```
+   ```bash  
+   git clone https://github.com/chinguun101/stock-notification.git  
+   cd stock-notification  
+   ```  
 
-2. **Install the required packages:**
+2. **Install dependencies:**  
 
-   Make sure you have Python installed, then run:
+   Ensure Python is installed, then run:  
 
-   ```bash
-   pip install -r requirements.txt
-   ```
+   ```bash  
+   pip install -r requirements.txt  
+   ```  
 
-3. **Set up environment variables:**
+3. **Configure environment variables:**  
 
-   Create a `.env` file in the root directory and add the following environment variables:
+   Create a `.env` file in the root directory and include the following keys:  
 
-   ```plaintext
-   API_KEY=your_alpha_vantage_api_key
-   NEWS_API=your_news_api_key
-   TWILIO_SID=your_twilio_sid
-   TWILIO_AUTH_TOKEN=your_twilio_auth_token
-   ```
+   ```plaintext  
+   API_KEY=your_alpha_vantage_api_key  
+   NEWS_API=your_news_api_key  
+   TWILIO_SID=your_twilio_sid  
+   TWILIO_AUTH_TOKEN=your_twilio_auth_token  
+   ```  
 
-## Usage
+## Usage  
 
-1. **Run the main script:**
+1. **Start the application:**  
 
-   Execute the main script to start monitoring stock prices:
+   Run the main script to begin stock price monitoring:  
 
-   ```bash
-   python stock_notification/main.py
-   ```
+   ```bash  
+   python stock_notification/main.py  
+   ```  
 
-2. **Check the console output:**
+2. **View the results:**  
 
-   The script will print the stock price change and any notifications sent.
+   The console output will display price changes and details of sent notifications.  
 
-## Project Structure
+## Project Structure  
 
-- `stock_notification/main.py`: The main script that fetches stock data, calculates price changes, retrieves news, and sends notifications.
-- `requirements.txt`: Lists the Python packages required for the project.
+- `stock_notification/main.py`: Core script for fetching data, calculating changes, retrieving news, and sending alerts.  
+- `requirements.txt`: File listing the required Python libraries.  
 
-## Acknowledgments
+## Acknowledgments  
 
-- [Alpha Vantage API](https://www.alphavantage.co/) for stock data.
-- [News API](https://newsapi.org/) for news articles.
-- [Twilio](https://www.twilio.com/) for WhatsApp notifications.
+- [Alpha Vantage API](https://www.alphavantage.co/) for stock data.  
+- [News API](https://newsapi.org/) for fetching relevant articles.  
+- [Twilio](https://www.twilio.com/) for enabling WhatsApp notifications.  
