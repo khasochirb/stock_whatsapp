@@ -14,7 +14,7 @@ This Stock Notification project is a Python-based application that tracks stock 
 1. **Clone the repository:**  
 
    ```bash  
-   git clone https://github.com/chinguun101/stock-notification.git  
+   git clone https://github.com/khasochirb/stock_whatsapp.git  
    cd stock-notification  
    ```  
 
